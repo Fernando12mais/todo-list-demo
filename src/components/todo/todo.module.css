@@ -1,0 +1,18 @@
+.todo {
+  display: flex;
+  gap: 1rem;
+  border: 1px solid grey;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+}
+
+.form {
+  display: flex;
+  gap: 1rem;
+  width: 100%;
+}
+
+.done input {
+  text-decoration: line-through;
+  font-weight: 700;
+}

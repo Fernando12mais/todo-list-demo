@@ -1,0 +1,27 @@
+.container {
+  width: 100%;
+}
+
+.input {
+  padding: 0.5rem 0.25rem;
+  border-radius: 0.25rem;
+  width: 100%;
+  border: none;
+  outline: 1px solid black;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.input:read-only {
+  outline: none;
+}
+
+.input:has(+ .error-message) {
+  outline: 1px solid red;
+}
+
+.error-message {
+  padding-top: 0.25rem;
+  color: rgb(143, 0, 0);
+  font-size: 0.75rem;
+}
