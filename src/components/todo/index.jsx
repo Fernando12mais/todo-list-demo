@@ -39,10 +39,12 @@ export default function Todo({
       </form>
       {!editing && (
         <>
-          <Button onClick={() => onDoneChange(index)}>Done</Button>
-          <Button onClick={() => toggleEditMode(index)}>Edit</Button>
+          <Button variant="success" onClick={() => onDoneChange(index)}>
+            Pronto
+          </Button>
+          <Button onClick={() => toggleEditMode(index)}>Editar</Button>
           <Button onClick={() => onDeleteTodo(index)} variant={"delete"}>
-            Delete
+            Deletar
           </Button>
         </>
       )}

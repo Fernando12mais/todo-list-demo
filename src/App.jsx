@@ -1,5 +1,3 @@
-import { useState } from "react";
-
 import styles from "./App.module.css";
 import Button from "./components/button";
 
@@ -52,8 +50,6 @@ function App() {
   };
 
   const newTodo = watch("newTodo");
-
-  console.log(newTodo);
 
   return (
     <main className={styles.app}>
